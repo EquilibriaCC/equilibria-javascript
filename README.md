@@ -1,6 +1,6 @@
-# Monero JavaScript Library
+# Equilibria JavaScript Library
 
-A Node.js library for creating Monero applications using RPC or WebAssembly bindings to [monero v0.16.0.1 'Nitrogen Nebula'](https://github.com/monero-project/monero/tree/v0.16.0.1).
+A Node.js library for creating Equilibria applications using RPC or WebAssembly bindings to [equilibria v6.0.3](https://github.com/EquilibriaCC/equilibria/tree/v6.0.3).
 
 * Supports wallet and daemon RPC clients.
 * Supports client-side wallets in Node.js or the browser using WebAssembly.
@@ -16,7 +16,7 @@ A Node.js library for creating Monero applications using RPC or WebAssembly bind
 
 * [Architecture](#architecture)
 * [Sample code](#sample-code)
-* [Using monero-javascript in your project](#using-monero-javascript-in-your-project)
+* [Using equilibria-javascript in your project](#using-equilibria-javascript-in-your-project)
 * [Building WebAssembly binaries from source](#building-webassembly-binaries-from-source)
 * [Developer guide](#developer-guide)
 * [Running tests](#running-tests)
@@ -33,7 +33,7 @@ A Node.js library for creating Monero applications using RPC or WebAssembly bind
 
 ## Sample code
 
-This code introduces the API used in monero-javascript.  See the [JSDocs](https://moneroecosystem.org/monero-javascript/MoneroWallet.html), [API specification](https://moneroecosystem.org/monero-java/monero-spec.pdf), or [Mocha tests](src/test) for more detail.
+This code introduces the API used in equilibria-javascript.  See the [JSDocs](https://moneroecosystem.org/monero-javascript/MoneroWallet.html), [API specification](https://moneroecosystem.org/monero-java/monero-spec.pdf), or [Mocha tests](src/test) for more detail.
 
 ```js
 // import library

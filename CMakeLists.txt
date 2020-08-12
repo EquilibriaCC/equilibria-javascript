@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.4.1)
 
-project(monero-javascript-wasm)
+project(equilibria-javascript-wasm)
 
 # build with exception whitelist from file
 file(STRINGS wasm_exception_whitelist.txt WASM_EXCEPTION_WHITELIST)
@@ -18,10 +18,10 @@ set(BUILD_MONERO_CORE_KEYS_WASM ON)
 include_directories("src/cpp")
 
 #####################
-# monero-cpp
+# equilibria-cpp
 #####################
 
-set(MONERO_CPP "external/monero-cpp")
+set(MONERO_CPP "external/equilibria-cpp")
 set(MONERO_CPP_SRC "${MONERO_CPP}/src")
 
 # headers
@@ -33,7 +33,7 @@ include_directories("${MONERO_CPP}/external/libsodium/include/sodium")
 # monero-project
 ##################
 
-set(MONERO_CORE "${MONERO_CPP}/external/monero-core")
+set(MONERO_CORE "${MONERO_CPP}/external/equilibria")
 set(MONERO_CORE_SRC "${MONERO_CORE}/src")
 
 # headers

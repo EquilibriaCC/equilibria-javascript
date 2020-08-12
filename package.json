@@ -1,9 +1,9 @@
 {
-  "name": "monero-javascript",
-  "description": "A JavaScript library for using Monero",
+  "name": "equilibria-javascript",
+  "description": "A JavaScript library for using Equilibria",
   "version": "0.4.1",
   "license": "MIT",
-  "repository": "https://github.com/monero-ecosystem/monero-javascript",
+  "repository": "https://github.com/EquilibriaCC/equilibria",
   "private": false,
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "woodser",
-        "repo": "monero-javascript"
+        "owner": "EquilibriaCC",
+        "repo": "equilibria-javascript"
       }
     ]
   },
