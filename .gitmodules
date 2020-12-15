@@ -2,3 +2,6 @@
 	path = external/equilibria-cpp
 	url = https://github.com/EquilibriaCC/equilibria-cpp
 	ignore = dirty
+[submodule "external/equilibria"]
+	path = external/equilibria
+	url = https://github.com/EquilibriaCC/equilibria
