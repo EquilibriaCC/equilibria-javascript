@@ -62,7 +62,7 @@ include_directories("${MONERO_CORE}/contrib/epee/include/net")
 #include_directories("${CMAKE_CURRENT_BINARY_DIR}")
 #include_directories("${MONERO_CORE_SRC}/wallet/api")
 
-include_directories("${MONERO_CORE}/build/release/translations")
+include_directories("${MONERO_CORE}/build/Linux/master/release/translations")
 
 #############
 # OpenSSL
