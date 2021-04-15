@@ -174,10 +174,6 @@ set(
     ${MONERO_CORE_SRC}/crypto/random.c
     ${MONERO_CORE_SRC}/crypto/aesb.c
     ${MONERO_CORE_SRC}/crypto/tree-hash.c
-    ${MONERO_CORE_SRC}/crypto/hash-extra-blake.c
-    ${MONERO_CORE_SRC}/crypto/hash-extra-groestl.c
-    ${MONERO_CORE_SRC}/crypto/hash-extra-jh.c
-    ${MONERO_CORE_SRC}/crypto/hash-extra-skein.c
     ${MONERO_CORE_SRC}/cryptonote_core/cryptonote_tx_utils.cpp
     ${MONERO_CORE}/contrib/epee/src/hex.cpp
     ${MONERO_CORE}/contrib/epee/src/string_tools.cpp
