@@ -175,7 +175,6 @@ set(
     ${MONERO_CORE_SRC}/crypto/aesb.c
     ${MONERO_CORE_SRC}/crypto/tree-hash.c
     ${MONERO_CORE_SRC}/crypto/hash-extra-blake.c
-    ${MONERO_CORE_SRC}/crypto/blake256.c
     ${MONERO_CORE_SRC}/crypto/hash-extra-groestl.c
     ${MONERO_CORE_SRC}/crypto/hash-extra-jh.c
     ${MONERO_CORE_SRC}/crypto/hash-extra-skein.c
