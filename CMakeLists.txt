@@ -161,7 +161,11 @@ set(
     ${MONERO_CORE_SRC}/cryptonote_basic/cryptonote_format_utils.cpp
     ${MONERO_CORE_SRC}/crypto/crypto.cpp
     ${MONERO_CORE_SRC}/crypto/hash.c
-    ${MONERO_CORE_SRC}/crypto/slow-hash.c
+    ${MONERO_CORE_SRC}/crypto/pow_hash/aux_hash.c
+    ${MONERO_CORE_SRC}/crypto/pow_hash/cn_slow_hash_soft.cpp
+    ${MONERO_CORE_SRC}/crypto/pow_hash/cn_slow_hash_hard_intel.cpp
+    ${MONERO_CORE_SRC}/crypto/pow_hash/cn_slow_hash_intel_avx2.cpp
+    ${MONERO_CORE_SRC}/crypto/pow_hash/cn_slow_hash_hard_arm.cpp
     ${MONERO_CORE_SRC}/crypto/oaes_lib.c
     ${MONERO_CORE_SRC}/crypto/crypto-ops.c
     ${MONERO_CORE_SRC}/crypto/crypto-ops-data.c
